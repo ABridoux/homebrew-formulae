@@ -1,10 +1,10 @@
 class Scout < Formula
   desc "Make specific formats data values reading and writing simple when the data format is not known at build time."
   homepage "https://github.com/ABridoux/scout"
-  url "https://github.com/ABridoux/scout/archive/0.1.3.tar.gz"
-  sha256 "f06fd98ccb208d439f7d07d693ec767e1c8302595658bfd99ac8ed8be6ddb927"
+  url "https://github.com/ABridoux/scout/archive/0.1.4.tar.gz"
+  sha256 "52c8106994bedf5b679287777f074d513e6b5bbe24900f6c44b618a2d9880fb5"
   
-  depends_on :xcode => "11.3"
+  depends_on :xcode => "10"
 
   def install
     system "swift", "build", "-c", "release"
