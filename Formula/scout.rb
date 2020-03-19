@@ -1,8 +1,8 @@
 class Scout < Formula
   desc "Make specific formats data values reading and writing simple when the data format is not known at build time."
   homepage "https://github.com/ABridoux/scout"
-  url "https://github.com/ABridoux/scout/archive/0.1.4.tar.gz"
-  sha256 "52c8106994bedf5b679287777f074d513e6b5bbe24900f6c44b618a2d9880fb5"
+  url "https://github.com/ABridoux/scout/archive/0.2.0.tar.gz"
+  sha256 "4f952ef20da86812f1520fb68bd6b1d03a6f98243d936b5a4d218685e214d910"
   
   depends_on :xcode => "10"
 
