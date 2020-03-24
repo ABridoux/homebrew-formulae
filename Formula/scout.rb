@@ -1,8 +1,8 @@
 class Scout < Formula
   desc "Make specific formats data values reading and writing simple when the data format is not known at build time."
   homepage "https://github.com/ABridoux/scout"
-  url "https://github.com/ABridoux/scout/archive/0.2.1.tar.gz"
-  sha256 "7dbc35468f9f7ef1fceab7c15421f798ae91f26a21ca82456ea330ed52453666"
+  url "https://github.com/ABridoux/scout/archive/0.2.2.tar.gz"
+  sha256 "09f058b73f70dd15b7f80e24a491869d4c307b3d5847d31164506d2b211dacbf"
 
   def install
     system "curl", "-o", "scout.zip", "https://abridoux-public.s3.us-east-2.amazonaws.com/scout/scout-latest.zip"
