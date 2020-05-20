@@ -1,8 +1,8 @@
 class Scout < Formula
   desc "A command-line tool to read and modify Json, Plist, and Xml files using one method."
   homepage "https://github.com/ABridoux/scout"
-  url "https://github.com/ABridoux/scout/releases/download/1.0.2/scout.zip"
-  sha256 "4c3a8bcf0c134ec253a8a0da6589164f4b05b3866cf0b95d4269afc948e88c7f"
+  url "https://github.com/ABridoux/scout/releases/download/1.1.0/scout.zip"
+  sha256 "4346e437ab8b00c4fa761293e24f4b47b349860320a9e0964378cb39676992ef"
 
   def install
     system "mkdir", "#{prefix}/bin"
