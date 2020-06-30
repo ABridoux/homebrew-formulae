@@ -1,8 +1,8 @@
 class Lux < Formula
   desc "Command-line tool to colorise plain code (e.g. for terminal output) or HTML files code blocks"
   homepage "https://github.com/ABridoux/lux"
-  url "https://github.com/ABridoux/lux/releases/download/0.3.2/lux.zip"
-  sha256 "ce8fa7395e560ae3f48b204eadfa709ac31c04acc56c51397a1e9e285a6efd35"
+  url "https://github.com/ABridoux/lux/releases/download/0.3.3/lux.zip"
+  sha256 "3548117687b388b2be88178cf47925355aa7ac3e03920235a081c889784888d8"
 
   def install
     system "mkdir", "#{prefix}/bin"
